@@ -1,0 +1,11 @@
+#Genered or temp foler
+TrainingFramework/.vs
+TrainingFramework/TrainingFramework/Debug
+TrainingFramework/Utilities/Debug
+TrainingFramework/Debug
+TrainingFramework/TrainingFramework/Release
+TrainingFramework/Utilities/Release
+TrainingFramework/Release
+/.vs
+*.exe
+*.pdb
