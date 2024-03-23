@@ -14,7 +14,7 @@
     <ProjectGuid>{FC024EC8-32F4-4657-A2CB-14D2B3A931F8}</ProjectGuid>
     <RootNamespace>TrainingFramework</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>StopTheAlien</ProjectName>
+    <ProjectName>HereToSlay</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -108,7 +108,9 @@
     <Text Include="..\Resources\SM.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BaseAlien.cpp" />
+    <ClCompile Include="Card\BaseCard.cpp" />
+    <ClCompile Include="Card\Leader\BaseLeader.cpp" />
+    <ClCompile Include="Card\Leader\TheCloakedSage.cpp" />
     <ClCompile Include="GameManager\ResourceManager.cpp" />
     <ClCompile Include="GameManager\SceneManager.cpp" />
     <ClCompile Include="GameObject\Animation.cpp" />
@@ -129,11 +131,13 @@
     <ClCompile Include="GameState\GSPlay.cpp" />
     <ClCompile Include="GameState\GSScore.cpp" />
     <ClCompile Include="GameState\GSTutorial.cpp" />
+    <ClCompile Include="HereToSlay.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="StopTheAlien.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseAlien.h" />
+    <ClInclude Include="Card\BaseCard.h" />
+    <ClInclude Include="Card\Leader\BaseLeader.h" />
+    <ClInclude Include="Card\Leader\TheCloakedSage.h" />
     <ClInclude Include="GameManager\ResourceManager.h" />
     <ClInclude Include="GameManager\SceneManager.h" />
     <ClInclude Include="GameManager\SingletonClass.h" />

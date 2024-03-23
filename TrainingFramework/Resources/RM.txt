@@ -1,8 +1,7 @@
-﻿#Models: 2
+﻿#Models: 1
 ID 0	FILE Sprite2D
-ID 1	FILE Rectangle
 
-#2DTextures: 80
+#2DTextures: 81
 
 ID 0	FILE base 
 ID 1	FILE btn_exit 
@@ -84,6 +83,7 @@ ID 76	FILE tutorial_background
 ID 77	FILE menu_square
 ID 78	FILE question_mark
 ID 79	FILE tutorial_button
+ID 80	FILE the_cloaked_sage
 
 #Shaders: 3
 ID 0	FILE TriangleShader

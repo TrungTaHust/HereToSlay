@@ -17,6 +17,12 @@
     <Filter Include="SourceFile\GameManager">
       <UniqueIdentifier>{d18fc840-1a56-4234-a303-f7346d527b1a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SourceFile\Card">
+      <UniqueIdentifier>{aa331b7c-c556-4908-8d0c-e1a7b53979b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile\Card\Leader">
+      <UniqueIdentifier>{0f3a45cf-0016-4d4a-ae47-f28dcdf6b922}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameManager\ResourceManager.cpp">
@@ -73,12 +79,6 @@
     <ClCompile Include="GameObject\Texture.cpp">
       <Filter>SourceFile\GameObject</Filter>
     </ClCompile>
-    <ClCompile Include="BaseAlien.cpp">
-      <Filter>SourceFile</Filter>
-    </ClCompile>
-    <ClCompile Include="StopTheAlien.cpp">
-      <Filter>SourceFile</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>SourceFile</Filter>
     </ClCompile>
@@ -87,6 +87,18 @@
     </ClCompile>
     <ClCompile Include="GameState\GSTutorial.cpp">
       <Filter>SourceFile\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="HereToSlay.cpp">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\BaseCard.cpp">
+      <Filter>SourceFile\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\BaseLeader.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\TheCloakedSage.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -150,9 +162,6 @@
     <ClInclude Include="GameObject\Vertex.h">
       <Filter>SourceFile\GameObject</Filter>
     </ClInclude>
-    <ClInclude Include="BaseAlien.h">
-      <Filter>SourceFile</Filter>
-    </ClInclude>
     <ClInclude Include="Globals.h">
       <Filter>SourceFile</Filter>
     </ClInclude>
@@ -167,6 +176,15 @@
     </ClInclude>
     <ClInclude Include="GameState\GSTutorial.h">
       <Filter>SourceFile\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\BaseCard.h">
+      <Filter>SourceFile\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\BaseLeader.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheCloakedSage.h">
+      <Filter>SourceFile\Card\Leader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

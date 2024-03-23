@@ -1,7 +1,6 @@
 #pragma once
 #include "../TrainingFramework/GameState/GSBase.h"
 #include "../TrainingFramework/GameObject/GameButton.h"
-#include "../TrainingFramework/BaseAlien.h"
 class GSTutorial :
     public GSBase
 {
