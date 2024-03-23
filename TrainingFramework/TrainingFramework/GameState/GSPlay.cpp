@@ -16,7 +16,6 @@ GSPlay::~GSPlay()
 
 void GSPlay::Init()
 {	
-
 	auto card = std::make_shared<TheCloakedSage>();
 	m_cards = std::dynamic_pointer_cast<BaseCard>(card);
 	card->Show();

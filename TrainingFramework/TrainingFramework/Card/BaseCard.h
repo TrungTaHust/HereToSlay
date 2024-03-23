@@ -13,6 +13,7 @@ public:
 
 	std::string getName();
 	void Display();
+	CardType getCardType();
 protected:
 	CardType type;
 	std::string name;

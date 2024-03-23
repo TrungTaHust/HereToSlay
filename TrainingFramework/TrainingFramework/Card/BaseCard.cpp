@@ -18,3 +18,7 @@ std::string BaseCard::getName() {
 void BaseCard::Display() {
 
 };
+
+CardType BaseCard::getCardType() {
+	return type;
+}

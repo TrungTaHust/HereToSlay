@@ -23,6 +23,9 @@
     <Filter Include="SourceFile\Card\Leader">
       <UniqueIdentifier>{0f3a45cf-0016-4d4a-ae47-f28dcdf6b922}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SourceFile\Util">
+      <UniqueIdentifier>{af9e76ca-c7cc-490f-a35d-86167ece6940}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameManager\ResourceManager.cpp">
@@ -99,6 +102,15 @@
     </ClCompile>
     <ClCompile Include="Card\Leader\TheCloakedSage.cpp">
       <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Place.cpp">
+      <Filter>SourceFile\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BasicAction.cpp">
+      <Filter>SourceFile\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Player.cpp">
+      <Filter>SourceFile\Util</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +197,15 @@
     </ClInclude>
     <ClInclude Include="Card\Leader\TheCloakedSage.h">
       <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Place.h">
+      <Filter>SourceFile\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BasicAction.h">
+      <Filter>SourceFile\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Player.h">
+      <Filter>SourceFile\Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

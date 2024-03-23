@@ -133,6 +133,9 @@
     <ClCompile Include="GameState\GSTutorial.cpp" />
     <ClCompile Include="HereToSlay.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Util\BasicAction.cpp" />
+    <ClCompile Include="Util\Place.cpp" />
+    <ClCompile Include="Util\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card\BaseCard.h" />
@@ -163,6 +166,9 @@
     <ClInclude Include="Globals.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util\BasicAction.h" />
+    <ClInclude Include="Util\Place.h" />
+    <ClInclude Include="Util\Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
