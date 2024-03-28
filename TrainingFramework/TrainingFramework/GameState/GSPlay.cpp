@@ -16,11 +16,11 @@ GSPlay::~GSPlay()
 
 void GSPlay::Init()
 {	
-	auto card = std::make_shared<TheCloakedSage>();
+	auto card = std::make_shared<TheDivineArrow>();
 	m_cards = std::dynamic_pointer_cast<BaseCard>(card);
 	card->Show();
 	m_cards->Set2DPos(400, 400);
-	m_cards->SetSize(400, 600);
+	//m_cards->SetSize(400, 600);
 	m_cards->SetRotate(Vector3(0, 0, 0));
 }
 

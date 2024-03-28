@@ -11,9 +11,8 @@
 #include "../TrainingFramework/GameManager/SceneManager.h"
 #include "../TrainingFramework/GameManager/ResourceManager.h"
 #include "../TrainingFramework/Globals.h"
-#include "../Card/Leader/TheCloakedSage.h"
+#include "../Card/CardList.h"
 
-void UpdateScore(std::vector<int>& scores, int currentScore);
 class GSPlay :
     public GSBase
 {

@@ -22,11 +22,7 @@ void GSMenu::Init()
 	m_buttonList.push_back(SceneManager::GetInstance()->GetButtonByID("button_start"));
 	m_buttonList.push_back(SceneManager::GetInstance()->GetButtonByID("button_exit"));
 	m_buttonList.push_back(SceneManager::GetInstance()->GetButtonByID("long_button_tutorial"));
-	m_text.SetPos({ 640, 190, 1 }); // Đặt vị trí của văn bản
-	m_text.GetTextColor() = SDL_Color({ 255, 255, 255, 255 }); // Đặt màu sắc của văn bản
-	m_text.GetTextSize() = 80; // Đặt kích thước của văn bản
-	m_text.GetTextMessage() = "Stop the Aliens"; // Đặt nội dung văn bản
-	m_text.Init("../Resources/Fonts/orbitron/Orbitron-Black.ttf");
+	
 	AddSoundByName("menu");
 	PlaySoundByName("menu", 1, -1);
 }
@@ -56,8 +52,7 @@ void GSMenu::Update(float deltaTime)
 
 void GSMenu::Draw()
 {
-	m_menuBackground->Draw();
-	m_text.Draw();
+	m_menuBackground->Draw();	
 	for (auto& button : m_buttonList)
 	{
 		button->Draw();

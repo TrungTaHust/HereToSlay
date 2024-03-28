@@ -112,6 +112,21 @@
     <ClCompile Include="Util\Player.cpp">
       <Filter>SourceFile\Util</Filter>
     </ClCompile>
+    <ClCompile Include="Card\Leader\TheCharismaticSong.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\TheDivineArrow.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\TheFistOfReason.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\TheProtectingHorn.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Leader\TheShadowClaw.cpp">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameManager\ResourceManager.h">
@@ -206,6 +221,24 @@
     </ClInclude>
     <ClInclude Include="Util\Player.h">
       <Filter>SourceFile\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheCharismaticSong.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheDivineArrow.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheFistOfReason.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheProtectingHorn.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Leader\TheShadowClaw.h">
+      <Filter>SourceFile\Card\Leader</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\CardList.h">
+      <Filter>SourceFile\Card</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

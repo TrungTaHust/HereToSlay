@@ -8,9 +8,7 @@ public:
 	BaseLeader();
 	virtual ~BaseLeader();
 
-	Job getJob() { return job; };
-	virtual void Trigger() = 0;
-	virtual void Activate() = 0;
+	Job getJob() { return job; };	
 
 protected:
 	Job job;

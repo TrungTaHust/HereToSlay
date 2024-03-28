@@ -26,7 +26,6 @@ public:
 private:
 	std::shared_ptr<Object> m_menuBackground;
 	std::vector<std::shared_ptr<Animation>> m_someAnim;
-	std::vector<std::shared_ptr<GameButton>> m_buttonList;
-	Text m_text;
+	std::vector<std::shared_ptr<GameButton>> m_buttonList;	
 };
 

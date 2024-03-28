@@ -4,11 +4,13 @@
 TheCloakedSage::TheCloakedSage() {
 	job = Job::Wizard;
 	name = "The Cloaked Sage";
-	auto model = ResourceManager::GetInstance()->GetModelPointerByName("Sprite2D");
-	m_model = model;
-	m_texture = ResourceManager::GetInstance()->GetTexturePointerByName("the_cloaked_sage");
-	m_shader = ResourceManager::GetInstance()->GetShaderPointerByName("TriangleShader");
-	
+
+	m_texture = ResourceManager::GetInstance()->GetTexturePointerByName("L_the_cloaked_sage");
+
+	m_height = 150;
+	m_width = 100;
+	SetScale(Vector3(m_width, m_height, 1.0f));
+
 	
 }
 

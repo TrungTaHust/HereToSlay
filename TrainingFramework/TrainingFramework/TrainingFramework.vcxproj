@@ -110,7 +110,12 @@
   <ItemGroup>
     <ClCompile Include="Card\BaseCard.cpp" />
     <ClCompile Include="Card\Leader\BaseLeader.cpp" />
+    <ClCompile Include="Card\Leader\TheCharismaticSong.cpp" />
     <ClCompile Include="Card\Leader\TheCloakedSage.cpp" />
+    <ClCompile Include="Card\Leader\TheDivineArrow.cpp" />
+    <ClCompile Include="Card\Leader\TheFistOfReason.cpp" />
+    <ClCompile Include="Card\Leader\TheProtectingHorn.cpp" />
+    <ClCompile Include="Card\Leader\TheShadowClaw.cpp" />
     <ClCompile Include="GameManager\ResourceManager.cpp" />
     <ClCompile Include="GameManager\SceneManager.cpp" />
     <ClCompile Include="GameObject\Animation.cpp" />
@@ -139,8 +144,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card\BaseCard.h" />
+    <ClInclude Include="Card\CardList.h" />
     <ClInclude Include="Card\Leader\BaseLeader.h" />
+    <ClInclude Include="Card\Leader\TheCharismaticSong.h" />
     <ClInclude Include="Card\Leader\TheCloakedSage.h" />
+    <ClInclude Include="Card\Leader\TheDivineArrow.h" />
+    <ClInclude Include="Card\Leader\TheFistOfReason.h" />
+    <ClInclude Include="Card\Leader\TheProtectingHorn.h" />
+    <ClInclude Include="Card\Leader\TheShadowClaw.h" />
     <ClInclude Include="GameManager\ResourceManager.h" />
     <ClInclude Include="GameManager\SceneManager.h" />
     <ClInclude Include="GameManager\SingletonClass.h" />
