@@ -26,6 +26,9 @@
     <Filter Include="SourceFile\Util">
       <UniqueIdentifier>{af9e76ca-c7cc-490f-a35d-86167ece6940}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SourceFile\Card\Hero">
+      <UniqueIdentifier>{9bfdc092-2501-46da-8ea4-005de1b77511}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameManager\ResourceManager.cpp">
@@ -126,6 +129,33 @@
     </ClCompile>
     <ClCompile Include="Card\Leader\TheShadowClaw.cpp">
       <Filter>SourceFile\Card\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\BaseHero.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\BadAxe.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\BearClaw.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\BearyWise.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\FuryKnuckle.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\HeavyBear.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\PanChuck.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\QiBear.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Hero\ToughTeddy.cpp">
+      <Filter>SourceFile\Card\Hero</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -239,6 +269,33 @@
     </ClInclude>
     <ClInclude Include="Card\CardList.h">
       <Filter>SourceFile\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\BaseHero.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\BadAxe.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\BearClaw.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\BearyWise.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\FuryKnuckle.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\HeavyBear.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\PanChuck.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\QiBear.h">
+      <Filter>SourceFile\Card\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\Hero\ToughTeddy.h">
+      <Filter>SourceFile\Card\Hero</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

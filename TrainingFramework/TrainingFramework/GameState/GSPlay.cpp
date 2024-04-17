@@ -16,8 +16,10 @@ GSPlay::~GSPlay()
 
 void GSPlay::Init()
 {	
-	auto card = std::make_shared<TheDivineArrow>();
+	player1 = std::make_shared<Player>(Vector2(400, 400), Vector2(400, 400), Vector2(400, 400));
+	auto card = std::make_shared<QiBear>();
 	m_cards = std::dynamic_pointer_cast<BaseCard>(card);
+	player1->AddCardToHand(m_cards);
 	card->Show();
 	m_cards->Set2DPos(400, 400);
 	//m_cards->SetSize(400, 600);
@@ -61,7 +63,9 @@ void GSPlay::Update(float deltaTime)
 
 void GSPlay::Draw()
 {				
-	m_cards->Draw();
+	//m_cards->Draw();
+	for (auto it : player1->getPlayerHand()->getContain())
+		it->Draw();
 }
 
 void GSPlay::HandleEvents()

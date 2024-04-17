@@ -1,12 +1,18 @@
 ﻿#include "Place.h"
 #include <iostream>
 
+Place::Place() {
+
+};
+Place::~Place() {
+
+};
+
 std::vector<std::shared_ptr<BaseCard>> Place::getContain() {
 	return cardVector;
 }
 
-void Place::setContain() {
-
+void Place::setContain(std::shared_ptr<BaseCard> card) {
 }
 
 std::vector<std::shared_ptr<BaseCard>> Place::getListHero() {
@@ -81,7 +87,8 @@ std::shared_ptr<BaseCard> Place::getRandomCard() {
 }
 
 void Place::addCard(std::shared_ptr<BaseCard> card) {
-	cardVector.push_back(card);
+	if(card)
+		cardVector.push_back(card);
 }
 
 void Place::removeCard(std::shared_ptr<BaseCard> card) {

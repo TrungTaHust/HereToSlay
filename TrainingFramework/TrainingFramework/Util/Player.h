@@ -10,8 +10,16 @@
 
 class Player {
 public:
+	Player(Vector2 handPos, Vector2 fieldPos, Vector2 monsterPos);
+	~Player();
 	int getActionPoint() { return actionPoint; };
 	void setActionPoint(int point);
+
+	std::shared_ptr<Place> getPlayerHand() { return playerHand; };
+	std::shared_ptr<Place> getPlayerField() { return playerField; };
+	std::shared_ptr<Place> getPlayerMonster() { return playerMonster; };
+
+	void AddCardToHand(std::shared_ptr<BaseCard> card);
 
 	void Attack();
 	void Challenge();
@@ -29,4 +37,8 @@ private:
 	std::shared_ptr<Place> playerMonster;
 	std::shared_ptr<BaseCard> playerLeader;
 	int actionPoint;
+
+	Vector2 m_handPos;
+	Vector2 m_fieldPos;
+	Vector2 m_monsterPos;
 };

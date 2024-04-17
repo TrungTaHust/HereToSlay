@@ -1,6 +1,25 @@
 ﻿#include "Player.h"
 #include <iostream>
 
+Player::Player(Vector2 handPos, Vector2 fieldPos, Vector2 monsterPos) {
+	m_handPos = handPos;
+	m_fieldPos = fieldPos;
+	m_monsterPos = monsterPos;
+
+	playerHand = std::make_shared<Place>();
+	playerField = std::make_shared<Place>();
+	playerMonster = std::make_shared<Place>();
+	playerLeader = std::make_shared<BaseCard>();
+
+};
+Player::~Player() {
+
+}
+
+void Player::AddCardToHand(std::shared_ptr<BaseCard> card) {
+	playerHand->addCard(card);
+}
+
 void Player::setActionPoint(int point) {
 
 }

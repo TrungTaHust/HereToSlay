@@ -8,8 +8,10 @@
 
 class Place {
 public:
+	Place();
+	~Place();
 	std::vector<std::shared_ptr<BaseCard>> getContain();
-	void setContain();
+	void setContain(std::shared_ptr<BaseCard> card);
 	std::vector<std::shared_ptr<BaseCard>> getListHero();
 	std::vector<std::shared_ptr<BaseCard>> getListSpell();
 	std::vector<std::shared_ptr<BaseCard>> getListEquip();

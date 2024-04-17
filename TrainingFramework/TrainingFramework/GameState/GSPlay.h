@@ -12,6 +12,7 @@
 #include "../TrainingFramework/GameManager/ResourceManager.h"
 #include "../TrainingFramework/Globals.h"
 #include "../Card/CardList.h"
+#include "../Util/Player.h"
 
 class GSPlay :
     public GSBase
@@ -34,4 +35,5 @@ public:
 	
 private:
 	std::shared_ptr<BaseCard> m_cards;
+	std::shared_ptr<Player> player1;
 };

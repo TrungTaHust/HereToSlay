@@ -109,6 +109,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Card\BaseCard.cpp" />
+    <ClCompile Include="Card\Hero\BadAxe.cpp" />
+    <ClCompile Include="Card\Hero\BaseHero.cpp" />
+    <ClCompile Include="Card\Hero\BearClaw.cpp" />
+    <ClCompile Include="Card\Hero\BearyWise.cpp" />
+    <ClCompile Include="Card\Hero\FuryKnuckle.cpp" />
+    <ClCompile Include="Card\Hero\HeavyBear.cpp" />
+    <ClCompile Include="Card\Hero\PanChuck.cpp" />
+    <ClCompile Include="Card\Hero\QiBear.cpp" />
+    <ClCompile Include="Card\Hero\ToughTeddy.cpp" />
     <ClCompile Include="Card\Leader\BaseLeader.cpp" />
     <ClCompile Include="Card\Leader\TheCharismaticSong.cpp" />
     <ClCompile Include="Card\Leader\TheCloakedSage.cpp" />
@@ -145,6 +154,15 @@
   <ItemGroup>
     <ClInclude Include="Card\BaseCard.h" />
     <ClInclude Include="Card\CardList.h" />
+    <ClInclude Include="Card\Hero\BadAxe.h" />
+    <ClInclude Include="Card\Hero\BaseHero.h" />
+    <ClInclude Include="Card\Hero\BearClaw.h" />
+    <ClInclude Include="Card\Hero\BearyWise.h" />
+    <ClInclude Include="Card\Hero\FuryKnuckle.h" />
+    <ClInclude Include="Card\Hero\HeavyBear.h" />
+    <ClInclude Include="Card\Hero\PanChuck.h" />
+    <ClInclude Include="Card\Hero\QiBear.h" />
+    <ClInclude Include="Card\Hero\ToughTeddy.h" />
     <ClInclude Include="Card\Leader\BaseLeader.h" />
     <ClInclude Include="Card\Leader\TheCharismaticSong.h" />
     <ClInclude Include="Card\Leader\TheCloakedSage.h" />
